@@ -2,55 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
+    <link rel="icon" type="image/png" href="/pixelnote/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rakkas&display=swap"
+        rel="stylesheet">
+    <title>X-Demon</title>
+    <script type="module" crossorigin src="/pixelnote/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/pixelnote/assets/styles-C5M2VN3H.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <h1 class="visually-hidden">X-Demon</h1>
+        <div class="home-wrapper">
+        <picture>
+            <source srcset="/pixelnote/assets/logo-desk-DCPEm1ld.png 1x, /pixelnote/assets/logo-desk@2x-D2aL752J.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/pixelnote/assets/logo-mob-rY0eS1zc.png 1x, /pixelnote/assets/logo-mob@2x-BTaqzx2M.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-logo" src="/pixelnote/assets/logo-mob-rY0eS1zc.png" alt="X-Demon Logo" loading="lazy" />
+        </picture>
+        <div class="home-text-wrapper">
+            <p>You're staring down this creepy portal, and honestly? Someone's gotta hold the line.</p>
+            <p>An ancient altar has opened a passage to a darker dimension. Stone guardians stand between the world and the forces
+            beyond. In X-Demon, the player steps into a tense fantasy setting where every action feels like part of a larger battle.</p>
+            <p>From the get-go, there's this oppressive vibe that just hits you. It's like something ancient and nasty is watching from
+            every shadow, and the graphics don't let you forget it for a second.</p>
+        </div>
+        <a class="hero-btn pulse" href="#demo">
+            <p>Play on This Page</p>
+        </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
