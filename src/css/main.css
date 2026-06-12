@@ -111,3 +111,50 @@ text-shadow: 0 0 10px #ff0200;
     display: none;
 }
 }
+/* A Portal Beneath the Ancient Stone */
+.portal-section{
+background-image: url("/img/portal/mob.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+height: 944px;
+}
+.portal-img{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.portal-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    line-height: 1.6;
+}
+.portal-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #dcbd52;
+    text-shadow: 0 0 10px #ff0200;
+}
+@media only screen and (min-width: 1440px) {
+.portal-section{
+background-image: url("/img/portal/desk.png");
+height: 700px;
+}
+.portal-img{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.portal-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-top: 28px;
+}
+.portal-text-wrapper{
+width: 505px;
+align-items: start;
+text-align: left;
+}
+
+}
