@@ -1,0 +1,68 @@
+@import url('./styles.css');
+
+
+
+.background {
+    text-align: left;
+
+}
+
+
+
+.privacy-title {
+text-shadow: none;
+text-align: left;
+    margin-top: 40px;
+    margin-bottom: 32px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    text-transform: uppercase;
+
+color: #fff;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+.policy-container{
+    padding-left: 123px;
+    padding-right: 123px;
+}
+
+}
