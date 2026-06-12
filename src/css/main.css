@@ -173,3 +173,43 @@ text-align: left;
 height: 700px;
 }
 }
+/* Wild Attack */
+.wild-text-wrapper{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.wild-list{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.wild-item{
+    border: 1px solid #dcbd52;
+        padding: 12px;
+        width: 343px;
+        height: 48px;
+background: linear-gradient(90deg, #dcbd52 0%, #c9a227 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+ .wild-text-wrapper{
+    margin-top: 38px;
+}
+.wild-item{
+width: 434px;
+    height: 48px;
+}
+.wild-text{
+    width: 1034px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
