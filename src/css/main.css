@@ -213,3 +213,39 @@ width: 434px;
     margin-right: auto;
 }
 }
+/* Bonus Symbols and Demon Collection */
+.bonus-text-wrapper{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.bonus-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.bonus-item{
+border: 1px solid #dcbd52;
+    padding: 12px 22px;
+    width: 343px;
+    height: 124px;
+background: linear-gradient(90deg, #dcbd52 0%, #c9a227 100%);
+display: flex;
+align-items: center;
+gap: 12px;
+}
+@media only screen and (min-width: 1440px) {
+.bonus-list{
+flex-direction: row;
+justify-content: center;
+} 
+.bonus-item{
+width: 398px;
+    height: 124px;
+}
+.bonus-item-text{
+    width: 236px;
+}
+}
